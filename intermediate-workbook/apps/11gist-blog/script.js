@@ -5,9 +5,10 @@ $(document).ready(function() {
     // You code here
     // "https://api.github.com/users/salvadorrodriguezruvalcaba/gists"
     // 'http://localhost:8080/apps/11gist-blog/api/gists.json'
-    $.ajax("http://localhost:8080/apps/11gist-blog/api/gists.json", {
+    $.ajax("https://api.github.com/users/salvadorrodriguezruvalcaba/gists", {
       success: function(objects) {
 
+        console.log(objects);
         objects.forEach(function(gist){
 
           if ( gist.description.indexOf("#post") === 0 ) {
