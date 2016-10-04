@@ -1,0 +1,171 @@
+
+div img{
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* General */
+h2 {
+    font-size: 22pt;
+    line-height: 39pt;
+}
+h3 {
+    display: block;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18pt;
+    line-height: 35pt;
+    font-family: 'Roboto Slab', serif;
+}
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
+    display: block;
+    margin: 0;
+    font-weight: normal;
+    font-family: 'Roboto Slab', serif;
+}
+a {
+    text-decoration: none;
+    color: #0693f6;
+}
+.colorbg{
+  background-color: #f4ed48;
+}
+.colorgbg{
+  background-color: #EEEEEE;
+}
+
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    font-family: Open Sans, serif;
+    font-weight: 100;
+    line-height: 22pt;
+    letter-spacing: 0.2pt;
+    background-size: cover;
+    background-color: #f5f5f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+header .logo {
+    display: table-cell;
+    float: left;
+    height: 50px;
+    line-height: 35px;
+}
+
+header .logo img {
+margin-top: 0;
+    vertical-align: middle;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    width: 100%;
+}
+
+header h2{
+  text-align: center;
+}
+
+/*body{
+  text-align: left;
+  background-image: url("/img/bg2.jpg");
+  background-size: auto;
+  background-position: center;
+  color: #F8F8FB;
+}*/
+.row{
+  margin-top: 20px;
+  /*background-color: gray;*/
+  /*text-align: left;*/
+  /*height: 100px; */
+}
+
+/* Comments */
+.comments {
+  background-color: #EEEEEE;
+}
+
+
+/* fooder */
+footer {
+    width: 1170px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    height: 50px;
+    max-width: 100%;
+}
+
+.footer-contact{
+  text-align: center;
+  margin:15px;
+  height:100px;
+  width:96%;
+  background-color:#f4ed48;
+  padding-top: 30px;
+}
+.footer-contact a:link{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+footer ul.icons {
+    float: right;
+    margin: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: relative;
+    transition: 0.3s;
+    padding: 0;
+    -webkit-transition: 0.3s;
+}
+footer ul.icons li {
+    list-style: none;
+    font-size: 25pt;
+    float: left;
+    line-height: 50px;
+    width: 30px;
+}
+
+.my-iconsize{
+  font-size: 15px;
+}
+
+.footer_links {
+    font-size: 12px;
+    padding: 0;
+    margin: 25px 15px 0px 0px;
+    float: right;
+}
+.footer_links a{
+    color: black;
+    font-weight: bold;
+}
+footer .right_col {
+    float: right;
+}
+
+footer small {
+    line-height: 60px;
+    margin-left: 15px;
+    font-size: 10pt;
+    color: #444;
+}
+footer .logo {
+    height: 50px;
+    float: left;
+}
+footer a {
+    opacity: 0.6;
+}
